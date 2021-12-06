@@ -168,13 +168,13 @@ public class Actualizar extends JFrame {
 			String v = passContra.getText();
           String s="",s1="",s2="",s3="",s4="",s5="",s6="";
           if(textActualizar.getText().equals("")) {
-        	  JOptionPane.showMessageDialog(null, "Tu tines que insertar el usuario que quieres que se actualize");  
+        	  JOptionPane.showMessageDialog(null, "inserter el usuario que quieres que se actualize");  
           }else {
           if(textUsuario.getText().equals("")) {
         	s="Usauario";  
           }
 			if(passContra.getText().equals("")) {
-				s1=",Contraseña";
+				s1=",ContraseÃ±a";
 			}
 			if(textNombre.getText().equals("")) {
 				s2=",Nombre";
@@ -187,7 +187,7 @@ public class Actualizar extends JFrame {
 	        	s5 = ",Correo Eletronico";
 	        	
 	        }if(passConf.getText().equals("")) {
-	        	s6 = ",Confirmacion de contraseña";
+	        	s6 = ",Confirmacion de contraseÃ±a";
 	        }if(textUsuario.getText().equals("")|| passContra.getText().equals("")|| textNombre.getText().equals("")|| textApellido.getText().equals("") || textNumero.getText().equals("") || (textCorreo.getText().equals("") || passConf.getText().equals(""))){
 	 			JOptionPane.showMessageDialog(null, "No debes dejar campos vacios, pro fabor rellene los siguientes campo: "+s+""+s1+""+s2+""+s3+""+s4+""+s5+""+s6+"." );
 	        
