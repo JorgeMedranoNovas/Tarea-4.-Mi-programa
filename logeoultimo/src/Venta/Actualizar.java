@@ -199,7 +199,7 @@ public class Actualizar extends JFrame {
     			principal prin = new principal();
     			prin.setVisible(true);
     			
-    						JOptionPane.showMessageDialog(contentPane, "Se a Ac");
+    						JOptionPane.showMessageDialog(contentPane, "Se a actualizado el usuario");
 				
 				dispose();
 
